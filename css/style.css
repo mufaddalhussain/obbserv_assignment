@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.mainMenu nav {
+
+  padding: 40px 0px;
+}
+
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px !important;
+  display: block;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.mainMenu .leftNav {
+
+  margin-left: 50px;
+}
+
+.mainMenu .leftNav .nav-link {
+
+  margin-left: 30px;
+
+  color: #373737;
+  font-size: 18px;
+}
+
+
+.mainMenu .rightNav {
+
+  margin-right: 60px;
+}
+
+.mainMenu .rightNav .nav-link {
+
+  margin-left: 30px;
+  color: #747474;
+  font-size: 18px;
+}
+
+.hero .jumbotron {
+  background-image: url(.img/wellness.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+
+}
+
+.hero .hero-text {
+  margin: 10% 5%;
+  float: left;
+  width: 27%;
+
+}
+
+.hero .hero-text p {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.762;
+
+
+}
+
+.section {
+  padding: 85px 0px;
+  overflow: hidden;
+}
+
+.heading {
+  font-size: 50px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+
+.heading span {
+  font-weight: 900;
+  color: #D22325;
+  text-transform: capitalize;
+  font-size: 60px;
+}
+
+.about-txt {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: #545454;
+}
+
+.about-txt a {
+
+  color: #545454;
+  text-decoration: none;
+}
+
+.heading_1 {
+
+  margin-left: 100px;
+}
+
+
+.heading_1 p {
+
+  width: 450px;
+  font-size: 22px;
+  margin-top: 40px;
+  line-height: 30px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+
+}
+
+.count-up p {
+  font-size: 80px;
+  color: #D22325;
+  line-height: 1.4px;
+  margin-left: 20px;
+  display: inline-block;
+
+}
+
+.count-up span {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #545454;
+  display: inline-block;
+  line-height: 1.4;
+}
+
+
+.product {
+  position: relative;
+  cursor: pointer;
+  margin-top: 150px;
+
+}
+
+.ma-1 {
+  margin-top: 200px;
+}
+
+
+.ma-2 {
+  margin-top: -200px;
+}
+
+.product {
+
+  margin: 200px 200px;
+
+}
+
+.product h5 {
+  font-size: 40px;
+  position: relative;
+  line-height: 50px;
+  left: 100px;
+  letter-spacing: 5px;
+  color: #000;
+
+}
+
+.product a {
+
+  text-decoration: none;
+}
+
+.product span {
+  font-size: 18px;
+  position: absolute;
+  left: 25px;
+  text-decoration: none;
+  color: #000;
+}
+
+
+.clipbtn {
+  position: absolute;
+  top: 237px;
+  bottom: 228px;
+  right: 913px;
+  left: 300;
+  background-color: #D22325;
+  height: 120px;
+  width: 540px;
+  padding: 30px 120px 30px 30px;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 35px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.clipbtn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.clipbtn i {
+  display: inline-block;
+  float: right;
+}
+
+.clipbtn span {
+  display: inline-block;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: left;
+  word-spacing: 0px;
+  text-decoration: none;
+}
+
+
+.clip1 img {
+
+  float: right;
+  overflow: hidden;
+}
+
+
+.wellness {
+  background-image: url(/img/bg_well.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+
+.well {
+  margin-top: -140px;
+  margin-right: 40px;
+}
+
+.well-img {
+
+  width: 200px;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+.well-img2 {
+  width: 200px;
+  margin-top: -100px;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+.left_img {
+  background-color: #fff;
+  height: 620px;
+  display: block;
+  left: 0px;
+}
+
+.well-right p {
+  font-size: 20px;
+  width: 400px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: left;
+  color: #545454;
+}
+
+
+img {
+  vertical-align: middle;
+
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 733px;
+  height: 460px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #b4b4b4;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 12px 16px;
+  color: #b4b4b4;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  margin-bottom: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+  margin-top: 30px;
+  height: 100px;
+}
+
+.column:hover {
+
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.4;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.red-bottom {
+  border-bottom: 4px solid #D22325;
+}
